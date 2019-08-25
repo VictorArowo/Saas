@@ -1,0 +1,284 @@
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lexend Deca Regular'), local('LexendDeca-Regular'), url(https://fonts.gstatic.com/s/lexenddeca/v1/K2F1fZFYk-dHSE0UPPuwQ5qnJyo.ttf) format('truetype');
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Lexend Deca', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.container .left-section {
+  flex-basis: 15%;
+}
+.container .right-section {
+  flex-basis: 80%;
+}
+.left-section {
+  background-color: #FFFFFF;
+}
+.left-section .left-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.left-section .left-top p {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+.left-section .left-top img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.left-section .group-container {
+  margin: 4rem 0;
+}
+.left-section .group-container .section-header {
+  padding: 1rem 4rem;
+  font-size: 20px;
+  color: #3277F9;
+}
+.left-section .group-container .section-item {
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.left-section .group-container .section-item p {
+  padding-left: 2.5rem;
+}
+.right-section .right-top {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-left: 2px solid #F3F5F9;
+}
+.right-section .right-top .icons {
+  font-size: 20px;
+  color: grey;
+}
+.right-section .right-top .icons.search {
+  margin-left: 2rem;
+}
+.right-section .right-top .icons.bell {
+  margin-left: 105rem;
+  margin-right: 5rem;
+}
+.right-section .right-main {
+  background-color: #F3F5F9;
+}
+.right-section .right-main .text-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  align-items: center;
+}
+.right-section .right-main .text-button button {
+  background-color: #3277F9;
+  border: 1px solid #3277F9;
+  border-radius: 2rem;
+  color: white;
+  width: 15rem;
+  height: 3rem;
+  font-weight: bold;
+}
+.right-section .right-main .text-button p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.right-section .grid-container {
+  margin: 5rem 0;
+  padding: 3em;
+}
+.right-section .grid-container .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(10rem, auto);
+  grid-gap: 3rem;
+  justify-items: center;
+}
+.right-section .grid-container .grid .grid-box {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 4rem;
+  color: grey;
+  font-size: 16px;
+}
+.right-section .grid-container .grid .grid-box i {
+  font-size: 20px;
+}
+.right-section .grid-container .grid .grid-box hr {
+  margin: 2rem 0;
+}
+.right-section .grid-container .grid .grid-box .grid-box-header {
+  padding: 2rem 0;
+}
+.right-section .grid-container .grid .grid-box.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.right-section .grid-container .grid .grid-box img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+.right-section .grid-container .grid .grid-box .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
